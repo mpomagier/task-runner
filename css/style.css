@@ -13,6 +13,27 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 65px;
+  font-family: "Mukta", sans-serif;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: "Mukta", sans-serif;
+}
+
+.row {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+/*navbar*/
 .brand {
   font-family: "Sacramento", cursive;
   font-style: italic;
@@ -36,6 +57,13 @@ body {
   color: #bababa;
 }
 
+.title {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+}
+
+/*splash*/
 .splash {
   background-image: url("../images/desk.jpg");
   background-size: cover;
@@ -50,14 +78,12 @@ body {
 .splash h3 {
   padding-top: 190px;
   align-self: center;
-  font-size: 36px;
   font-family: "Playfair", serif;
   font-style: italic;
 }
 
-.splash h1 {
-  font-size: 65px;
-  font-family: "Mukta", sans-serif;
+.splash .title {
+  margin: 30px;
 }
 
 .btn {
@@ -71,4 +97,29 @@ body {
   background-color: goldenrod;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBV0E7RUFDRSxTQUFBO0VBQ0EsVUFBQTtFQUNBLDhCQVZZO0FDQ2Q7O0FEWUE7RUFDRSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxjQUFBO0FDVEY7O0FEWUE7RUFDRSxrQ0F4QlU7RUF5QlYsa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGNBckJXO0VBc0JYLG1CQUFBO0FDVEY7O0FEWUE7RUFDRSxnQkFBQTtFQUNBLGFBQUE7QUNURjs7QURZQTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQ1RGOztBRFlBO0VBQ0UscUJBQUE7RUFDQSxjQXZDWTtBQzhCZDs7QURZQTtFQUNFLDJDQUFBO0VBQ0Esc0JBQUE7RUFDQSwyQkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGNBaERZO0VBaURaLGFBQUE7RUFDQSxtQkFBQTtBQ1RGOztBRFlBO0VBQ0Usa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSw4QkEzRFk7RUE0RFosa0JBQUE7QUNURjs7QURZQTtFQUNFLGVBQUE7RUFDQSxnQ0FsRVc7QUN5RGI7O0FEWUE7RUFDRSxvQkFBQTtBQ1RGOztBRFlBO0VBQ0UscUJBQUE7RUFDQSxjQXZFWTtFQXdFWixrQkFBQTtFQUNBLDJCQUFBO0FDVEYiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+/*service*/
+.services h3 {
+  text-align: center;
+}
+
+.services p {
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.services i {
+  font-size: 40px;
+  color: #daa520;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

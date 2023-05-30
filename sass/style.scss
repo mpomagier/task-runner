@@ -23,6 +23,28 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 65px;
+  font-family: $font-title;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: $font-title;
+}
+
+.row {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+/*navbar*/
+
 .brand {
   font-family: $font-logo;
   font-style: italic;
@@ -46,6 +68,14 @@ body {
   color: $color-light;
 }
 
+.title {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+}
+
+/*splash*/
+
 .splash {
   background-image: url("../images/desk.jpg");
   background-size: cover;
@@ -60,14 +90,12 @@ body {
 .splash h3 {
   padding-top: 190px;
   align-self: center;
-  font-size: 36px;
   font-family: $font-content;
   font-style: italic;
 }
 
-.splash h1 {
-  font-size: 65px;
-  font-family: $font-title;
+.splash .title {
+  margin: 30px;
 }
 
 .btn {
@@ -79,4 +107,30 @@ body {
   color: $color-white;
   padding: 20px 35px;
   background-color: goldenrod;
+}
+
+/*service*/
+
+.services h3 {
+  text-align: center;
+}
+
+.services p {
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.services i {
+  font-size: 40px;
+  color: $color-gold;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
