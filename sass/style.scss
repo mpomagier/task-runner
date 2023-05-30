@@ -5,8 +5,9 @@ $font-title: 'Mukta', sans-serif;
 $font-content:'Playfair', serif;
 
 $color-light: #bababa;
-$color-white: #dddddd;
+$color-white: #efefef;
 $color-gold: #daa520;
+$color-visir: #fff;
 
 
 body {
@@ -133,4 +134,64 @@ h5 {
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 0;
+}
+
+/*portfolio*/
+
+.portfolio {
+  background-color: $color-white;
+  padding: 20px auto;
+}
+
+.portfolio h3 {
+  text-align: center;
+  padding-top: 110px;
+}
+
+.portfolio p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.portfolio h5 {
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.card-content {
+  background: $color-visir;
+  padding: 10px;
+}
+
+.card-content p {
+  margin-bottom: 20px;
+}
+
+.portfolio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.column {
+  width: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio .card {
+  background-color: $color-white;
+}
+
+.card-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
 }
