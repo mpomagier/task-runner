@@ -59,6 +59,7 @@ h3 {
 .navigation {
   list-style: none;
   padding: 10px;
+  padding-left: 0;
 }
 
 .navigation li {
@@ -242,7 +243,15 @@ h5 {
   .container {
     max-width: 768px;
   }
-  
+
+  .services div {
+    width: 70%;
+  }
+
+  p {
+    width: 100%;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -251,8 +260,17 @@ h5 {
     font-size: 26px;
   }
   
-  div .column div {
-    width: 200px;
+  .column div {
+    width: 600px;
+  }
+
+  .portfolio .card {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
   }
 
   .heading {
@@ -265,21 +283,24 @@ h5 {
   }
 
   .services .container {
-    max-width: 768px;
+    width: 100%;
+    flex-direction: column;
   }
 
   .portfolio .card {
-    max-width: 300px;
+    max-width: 600px;
   }
 
   .portfolio .container {
     flex-wrap: wrap;
-    max-width: 768px;
+    width: 100%;
+    flex-direction: column;
   }
 
   .portfolio .column {
-    max-width: 200px;
     margin-bottom: 30px;
+    justify-content: center;
+    width: 600px;
   }
 
   .card-image img {
@@ -300,25 +321,38 @@ h5 {
     max-width: 500px;
   }
 
-  h1 {
-    font-size: 42px;
+  .splash h1 {
+    font-size: 38px;
   }
   
-  h3 {
-    font-size: 22px;
+  .splash h3 {
+    font-size: 26px;
   }
-  
+
   div .column div {
     width: 300px;
   }
 
+  .services .subtitle {
+    margin-bottom: 40px;
+  }
+
+  .row {
+    margin-top: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
   .heading {
     align-items: center;
-    margin: 0 25%;
+    margin: 0 15%;
   }
 
   .splash {
     text-align: center;
+    width: 100%;
   }
 
   .services .container {
@@ -336,7 +370,7 @@ h5 {
   }
 
   .portfolio .column {
-    max-width: 300px;
+    width: 300px;
     margin-bottom: 30px;
   }
 
@@ -349,6 +383,39 @@ h5 {
     width: 300px;
     padding: 10px 0;
     margin: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .brand {
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .heading {
+    margin: 0 5%;
+  }
+
+  .column {
+    padding: 0;
   }
 
 }
