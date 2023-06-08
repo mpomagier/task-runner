@@ -48,6 +48,10 @@ h3 {
 
 /*navbar*/
 
+.hamburger {
+  display: none;
+}
+
 .brand {
   font-family: $font-logo;
   font-style: italic;
@@ -84,7 +88,7 @@ h3 {
   background-image: url("../images/desk.jpg");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   text-align: center;
   color: $color-light;
   display: grid;
@@ -318,8 +322,18 @@ h5 {
 @media only screen and (max-width: 768px) {
 
   .container {
-    max-width: 500px;
+    width: 500px;
   }
+
+  .splash .container {
+    width: 100%;
+  }
+
+  .navbar .container {
+    width: 100%;
+    font-size: 14px;
+  }
+  
 
   .splash h1 {
     font-size: 38px;
@@ -389,6 +403,15 @@ h5 {
 
 
 @media only screen and (max-width: 500px) {
+
+  .navigation-item {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
   .container {
     max-width: 300px;
   }
