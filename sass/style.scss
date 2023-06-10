@@ -71,6 +71,12 @@ h3 {
   margin-left: 20px;
 }
 
+.navigation li a {
+  color: $color-light;
+  text-decoration: none;
+  align-items: center;
+}
+
 .navigation-item {
   text-decoration: none;
   color: $color-light;
